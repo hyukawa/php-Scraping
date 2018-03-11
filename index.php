@@ -9,9 +9,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <head>
 <style type="text/css">
-body {background-color: #fff; color: #222; font-family: sans-serif;}
-#container	{
-	height:100vh;
+.container {
+    height:100vh;
 }
 table {width:100%; table-layout: fixed; height: 100vh;}
 .entry-content h1{
@@ -23,8 +22,8 @@ table {width:100%; table-layout: fixed; height: 100vh;}
   //padding:0px 0 0 0px; /* 余白の調整 */
 }
 </style>
-<body><div class="center">
-<div id="container">
+<body>
+<div class="container">
 
 
 <?php
