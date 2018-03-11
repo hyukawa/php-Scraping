@@ -28,8 +28,8 @@ h2 {font-size: 125%;}
 .v i {color: #999;}
 img {float: right; border: 0;}
 hr {width: 934px; background-color: #ccc; border: 0; height: 1px;}
-.entry-content h2{
-  font-size:150%; /* 文字サイズ大き目(24px,18pt相当) */
+.entry-content h1{
+  font-size:300%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
   text-align:center; /* 文字を中央に */
   color:#000000; /* 文字の色を黒に */
@@ -122,7 +122,7 @@ print<<<eof
    <tr><td bgcolor="#00ff00" colspan="3"><font size="7" color="#ffffff">運行情報</font></td>
    <tr><td bgcolor="#80c241" width="20%"></td><td width="50%">$line_name[0]</td><td width="30%" align="center"><font size="7">$led_pat[0]</font></td></tr>
    <tr><td bgcolor="#009bbf"></td><td>$line_name[1]</td><td align="center"><font size="7">$led_pat[1]</font></td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td>$line_name[2]</td><td class="entry-content"><h2>$led_pat[2]</h2></td></tr>
+   <tr><td bgcolor="#9c5e31"></td><td>$line_name[2]</td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
   <table>
 eof;
 
