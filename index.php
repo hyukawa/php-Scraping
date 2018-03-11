@@ -112,9 +112,9 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 print<<<eof
   <table>
    <tr><td bgcolor="#00ff00" colspan="3"><font size="5" color="#ffffff">運行情報</font></td>
-   <tr><td bgcolor="#80c241" width="20%"></td><td width="50%">$line_name[0]</td><td width="3%" align="center">$led_pat[0]</td></tr>
-   <tr><td bgcolor="#009bbf"></td><td>$line_name[1]</td><td align="center">$led_pat[1]</td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td>$line_name[2]</td><td align="center">$led_pat[2]</td></tr>
+   <tr><td bgcolor="#80c241" width="20%"></td><td width="50%">$line_name[0]</td><td width="30%" align="center"><font size="7">$led_pat[0]</font></td></tr>
+   <tr><td bgcolor="#009bbf"></td><td>$line_name[1]</td><td align="center"><font size="7">$led_pat[1]</font></td></tr>
+   <tr><td bgcolor="#9c5e31"></td><td>$line_name[2]</td><td align="center"><font size="7">$led_pat[2]</font></td></tr>
   <table>
 eof;
 
