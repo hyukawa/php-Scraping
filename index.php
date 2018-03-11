@@ -6,7 +6,7 @@
 <title>高田馬場周辺の列車運行情報</title>
 <meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" />
 <!--ビューポート設定-->
-//<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <head>
 <style type="text/css">
 body {background-color: #fff; color: #222; font-family: sans-serif;}
@@ -14,6 +14,7 @@ pre {margin: 0; font-family: monospace;}
 a:link {color: #009; text-decoration: none; background-color: #fff;}
 a:hover {text-decoration: underline;}
 //table {border-collapse: collapse; border: 0; width: 100%; cellspacing: 30%; cellpadding: 30%; width: 934px; box-shadow: 1px 2px 3px #ccc;}
+ table {width:100%; table-layout: fixed;}
 //.center {text-align: center;}
 //.center table {margin: 1em auto; text-align: left;}
 //.center th {text-align: center !important;}
