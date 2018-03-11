@@ -62,10 +62,15 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 echo "路線： " . $line_name[0] . "</br>";
 echo "運行状況： " . $return_pat0[0] . "</br>";
 echo "遅延情報： " . $return_pat0[1] . "</br>";
+echo "路線： " . $line_name[1] . "</br>";
 echo "運行状況： " . $return_pat0[2] . "</br>";
 echo "遅延情報： " . $return_pat0[3] . "</br>";
+echo "路線： " . $line_name[2] . "</br>";
 echo "運行状況： " . $return_pat0[4] . "</br>";
 echo "遅延情報： " . $return_pat0[5] . "</br>";
+echo "路線： " . $line_name[3] . "</br>";
+echo "運行状況： " . $return_pat0[6] . "</br>";
+echo "遅延情報： " . $return_pat0[7] . "</br>";
 
   //遅延情報は文字が途中で切れてしまっているため、サイネージで表示した場合、恰好悪いので表示させない
 
