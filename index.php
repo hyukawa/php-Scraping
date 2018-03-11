@@ -9,7 +9,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <head>
 <style type="text/css">
-html, 
+html	{
+        height: 100%;
+}
 body	{
         height: 100%;
 	margin:0;
@@ -18,9 +20,9 @@ body	{
 #container {
     height:100vh;
 }
-//table {width: 100%; height: 100%; table-layout: fixed;}
+table {width: 100%; table-layout: fixed;}
 .entry-content h1{
-  font-size:500%; /* 文字サイズ大き目 */
+  font-size:400%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
   text-align:center; /* 文字を中央に */
   color:#000000; /* 文字の色を黒に */
