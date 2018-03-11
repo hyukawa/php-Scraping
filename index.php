@@ -13,9 +13,11 @@ $railway_html = file_get_contents($url);
 // 取得したHTMLデータを改行で分割して配列に格納
 $railway_info = explode("\n", $railway_html);
 
-// LED点滅パターン
-$led_pat = [];
- 
+// 取得結果を配列へ格納
+$return0_pat = [];
+$return1_pat = [];
+
+
 for($j=0; $j<count($line_name)-1; $j++) {
 // 配列に入れたHTMLデータ各行を解析
 for($i=0; $i<count($railway_info)-1; $i++) {
@@ -37,8 +39,8 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             if($pos !== false) {
                 // 遅延であればLED色は黄色で点滅
                 //$led_pat += [ "rail_state" => "▲" ];
-                $led_pat += [$line_name[$j] [ "rail_state" => $railway_info[$i+1] ]];
-                $led_pat += [$line_name[$j] [ "rail_state_detail" => $railway_info[$i+2] ]];
+                $return$j_pat += [ "rail_state" => $railway_info[$i+1] ]];
+                $return$j_pat += [ "rail_state_detail" => $railway_info[$i+2] ]];
                  break;
             } else {
                 // 平常運転、遅延でもなければLEDを赤点滅して警告する
@@ -53,8 +55,8 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 }
 
 echo "路線： " . $line_name[0] . "</br>";
-echo "運行状況： " . $led_pat["江ノ島電鉄線"]["rail_state"] . "</br>";
-echo "遅延情報： " . $led_pat["江ノ島電鉄線"]["rail_state_detail"] . "</br>";
+echo "運行状況： " . $return0_pat["rail_state"] . "</br>";
+echo "遅延情報： " . $return0_pat["rail_state_detail"] . "</br>";
   //遅延情報は文字が途中で切れてしまっているため、サイネージで表示した場合、恰好悪いので表示させない
 
 //var_dump($led_pat["rail_pat"]);
