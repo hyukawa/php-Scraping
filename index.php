@@ -28,8 +28,16 @@ h2 {font-size: 125%;}
 .v i {color: #999;}
 img {float: right; border: 0;}
 hr {width: 934px; background-color: #ccc; border: 0; height: 1px;}
+.entry-content h2{
+  font-size:150%; /* 文字サイズ大き目(24px,18pt相当) */
+  font-weight:bold; /* 文字を太文字に */
+  text-align:center; /* 文字を中央に */
+  color:#000000; /* 文字の色を黒に */
+  background-color:#ffffcc; /* 背景色を薄いクリーム色に */
+  padding:5px 0 0 10px; /* 余白の調整 */
+}
 </style>
-<body><div class="center h1">
+<body><div class="center">
 
 
 <?php
@@ -111,10 +119,10 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 print<<<eof
   <table>
-   <tr><td bgcolor="#00ff00" colspan="3"><font size="5" color="#ffffff">運行情報</font></td>
+   <tr><td bgcolor="#00ff00" colspan="3"><font size="7" color="#ffffff">運行情報</font></td>
    <tr><td bgcolor="#80c241" width="20%"></td><td width="50%">$line_name[0]</td><td width="30%" align="center"><font size="7">$led_pat[0]</font></td></tr>
    <tr><td bgcolor="#009bbf"></td><td>$line_name[1]</td><td align="center"><font size="7">$led_pat[1]</font></td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td>$line_name[2]</td><td align="center"><font size="7">$led_pat[2]</font></td></tr>
+   <tr><td bgcolor="#9c5e31"></td><td>$line_name[2]</td><td class="entry-content">$led_pat[2]</td></tr>
   <table>
 eof;
 
