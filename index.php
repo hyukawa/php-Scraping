@@ -14,11 +14,11 @@ $railway_html = file_get_contents($url);
 $railway_info = explode("\n", $railway_html);
 
 // 取得結果を配列へ格納
-$led_pat = [];
+//$led_pat = [];
 $return_pat0 = [];
 
 
-for($j=0; $j<count($line_name)-1; $j++) {
+for($j=0; $j<count($line_name); $j++) {
 // 配列に入れたHTMLデータ各行を解析
 for($i=0; $i<count($railway_info)-1; $i++) {
     // 情報取得する路線名文字列が含まれているかチェック
@@ -62,12 +62,15 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 echo "路線： " . $line_name[0] . "</br>";
 echo "運行状況： " . $return_pat0[0] . "</br>";
 echo "遅延情報： " . $return_pat0[1] . "</br>";
+
 echo "路線： " . $line_name[1] . "</br>";
 echo "運行状況： " . $return_pat0[2] . "</br>";
 echo "遅延情報： " . $return_pat0[3] . "</br>";
+
 echo "路線： " . $line_name[2] . "</br>";
 echo "運行状況： " . $return_pat0[4] . "</br>";
 echo "遅延情報： " . $return_pat0[5] . "</br>";
+
 echo "路線： " . $line_name[3] . "</br>";
 echo "運行状況： " . $return_pat0[6] . "</br>";
 echo "遅延情報： " . $return_pat0[7] . "</br>";
