@@ -10,7 +10,7 @@
 <head>
 <style type="text/css">
 body {background-color: #fff; color: #222; font-family: sans-serif;}
-table {width:100%; table-layout: fixed;}
+table {width:100%; table-layout: fixed; height: 100vh;}
 .entry-content h1{
   font-size:500%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
