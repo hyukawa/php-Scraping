@@ -9,10 +9,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <head>
 <style type="text/css">
-.container {
+html, body	{
+	margin:0;
+	padding:0;
+}
+#container {
     height:100vh;
 }
-table {width:100%; table-layout: fixed; height: 100vh;}
+table {width:100%; table-layout: fixed;}
 .entry-content h1{
   font-size:500%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
@@ -23,7 +27,7 @@ table {width:100%; table-layout: fixed; height: 100vh;}
 }
 </style>
 <body>
-<div class="container">
+<div id="container">
 
 
 <?php
