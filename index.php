@@ -42,6 +42,7 @@ td, th {
 // 情報取得する路線名設定
 $line_name = ["山手線","東京メトロ東西線","東京メトロ副都心線"];
  
+// JRだけではないため　Yahoo! Japan運行情報 より取得する
 // Yahoo! Japan運行情報のURL
 // 以下は関東地方の運行情報URL
 $url = "http://transit.yahoo.co.jp/traininfo/area/4/";
@@ -135,4 +136,3 @@ eof;
 </div>
 </body>
 </html>
-  //<tr><td bgcolor="#00ff00" colspan="3"><font size="7" color="#ffffff">運行情報</font></td>
