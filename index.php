@@ -48,8 +48,8 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 }
 
 echo "路線： " . $line_name . "</br>";
-echo "運行状況： " . $led_pat["rail_state] . "</br>";
-echo "遅延情報： " . $led_pat["rail_state_detail] . "</br>";
+echo "運行状況： " . $led_pat["rail_state"] . "</br>";
+echo "遅延情報： " . $led_pat["rail_state_detail"] . "</br>";
 //echo "LED点滅パターン:</br>";
 //var_dump($led_pat["rail_pat"]);
 //var_dump( phpinfo() );
