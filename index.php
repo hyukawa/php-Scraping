@@ -62,23 +62,28 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 }
 }
 
-echo '路線： ' . $line_name[0] . '</br>';
-echo '運行状況： ' . $return_pat0[0] . '</br>';
-echo '遅延情報： ' . $return_pat0[1] . '</br>';
+//echo '路線： ' . $line_name[0] . '</br>';
+//echo '運行状況： ' . $return_pat0[0] . '</br>';
+//echo '遅延情報： ' . $return_pat0[1] . '</br>';
 
-echo '路線： ' . $line_name[1] . '</br>';
-echo '運行状況： ' . $return_pat0[2] . '</br>';
-echo '遅延情報： ' . $return_pat0[3] . '</br>';
+//echo '路線： ' . $line_name[1] . '</br>';
+//echo '運行状況： ' . $return_pat0[2] . '</br>';
+//echo '遅延情報： ' . $return_pat0[3] . '</br>';
 
-echo '路線： ' . $line_name[2] . '</br>';
-echo '運行状況： ' . $return_pat0[4] . '</br>';
-echo '遅延情報： ' . $return_pat0[5] . '</br>';
+//echo '路線： ' . $line_name[2] . '</br>';
+//echo '運行状況： ' . $return_pat0[4] . '</br>';
+//echo '遅延情報： ' . $return_pat0[5] . '</br>';
 
 print<<<eof
+  <html>
+  <body>
   <table>
-   <tr><th>路線</th><td>$line_name[0]</td><td>$led_pat[0]</td></tr>
-   <tr><th>画像</th><td>$line_name[1]</td><td>$led_pat[1]</td></tr>
+   <tr><td>$line_name[0]</td><td>$led_pat[0]</td></tr>
+   <tr><td>$line_name[1]</td><td>$led_pat[1]</td></tr>
+   <tr><td>$line_name[2]</td><td>$led_pat[2]</td></tr>
   <table>
+  </body>
+  </html>
 eof;
 
   //遅延情報は文字が途中で切れてしまっているため、サイネージで表示した場合、恰好悪いので表示させない
