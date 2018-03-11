@@ -18,7 +18,7 @@ body	{
 #container {
     height:100vh;
 }
-table {width: 100%; height: 100%; table-layout: fixed;}
+//table {width: 100%; height: 100%; table-layout: fixed;}
 .entry-content h1{
   font-size:500%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
