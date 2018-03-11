@@ -1,8 +1,5 @@
 <?php
 
-echo "山手線の運行状況\n";
-echo "正常\n";
-
 // 情報取得する路線名設定
 $line_name = "山手線";
  
@@ -50,9 +47,9 @@ for($i=0; $i<count($railway_info)-1; $i++) {
     }
 }
 
-echo $line_name . "の運行状況LED点滅パターン\n";
-echo "LED色: " . $led_pat["rail_color"] . "\n";
-echo "LED点滅パターン:\n";
+echo $line_name . "の運行状況LED点滅パターン</br>";
+echo "LED色: " . $led_pat["rail_color"] . "</br>";
+echo "LED点滅パターン:</br>";
 var_dump($led_pat["rail_pat"]);
 
 //var_dump( phpinfo() );
