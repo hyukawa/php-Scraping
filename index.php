@@ -33,14 +33,14 @@ for($i=0; $i<count($railway_info)-1; $i++) {
         if($pos !== false) {
             // 平常運転であればLED色は緑で点灯
             $led_pat += [ "rail_state" => "○" ];
-            $led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
+            $led_pat["rail_state_detail"] = $railway_info[$i+2];
         } else {
             // 平常運転でなければ「遅延」が含まれるかチェック
             $pos = strpos($railway_info[$i+1], "遅延");
             if($pos !== false) {
                 // 遅延であればLED色は黄色で点滅
                 $led_pat += [ "rail_state" => "▲" ];
-                $led_pat += [ "rail_state_detail" => ["blink", "blink", "blink"] ];
+                $led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
                  break;
             } else {
                 // 平常運転、遅延でもなければLEDを赤点滅して警告する
