@@ -13,7 +13,7 @@ body {background-color: #fff; color: #222; font-family: sans-serif;}
 pre {margin: 0; font-family: monospace;}
 a:link {color: #009; text-decoration: none; background-color: #fff;}
 a:hover {text-decoration: underline;}
-//table {border-collapse: collapse; border: 0; width: 934px; box-shadow: 1px 2px 3px #ccc;}
+table {border-collapse: collapse; border: 0; cellspacing: 30%; cellpadding: 30%; width: 934px; box-shadow: 1px 2px 3px #ccc;}
 .center {text-align: center;}
 .center table {margin: 1em auto; text-align: left;}
 .center th {text-align: center !important;}
