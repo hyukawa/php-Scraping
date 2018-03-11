@@ -109,8 +109,8 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 print<<<eof
   <table>
-   <tr><td></td><td>$line_name[0]</td><td class="center">$led_pat[0]</td></tr>
-   <tr><td></td><td$line_name[1]</td><td class="center">$led_pat[1]</td></tr>
+   <tr><td bgcolor="#80c241"></td><td>$line_name[0]</td><td class="center">$led_pat[0]</td></tr>
+   <tr><td></td><td>$line_name[1]</td><td class="center">$led_pat[1]</td></tr>
    <tr><td></td><td>$line_name[2]</td><td class="center">$led_pat[2]</td></tr>
   <table>
 eof;
