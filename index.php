@@ -5,6 +5,8 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <title>高田馬場周辺の列車運行情報</title>
 <meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" />
+<!--ビューポート設定-->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <style type="text/css">
 body {background-color: #fff; color: #222; font-family: sans-serif;}
