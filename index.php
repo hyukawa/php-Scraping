@@ -47,11 +47,10 @@ for($i=0; $i<count($railway_info)-1; $i++) {
     }
 }
 
-echo $line_name . "の運行状況LED点滅パターン</br>";
-echo "LED色: " . $led_pat["rail_color"] . "</br>";
-echo "LED点滅パターン:</br>";
-var_dump($led_pat["rail_pat"]);
-
+echo "路線： " . $line_name . "</br>";
+echo "運行状況： " . $led_pat["rail_color"] . "</br>";
+//echo "LED点滅パターン:</br>";
+//var_dump($led_pat["rail_pat"]);
 //var_dump( phpinfo() );
 
 ?>
