@@ -10,6 +10,9 @@
 <head>
 <style type="text/css">
 body {background-color: #fff; color: #222; font-family: sans-serif;}
+#container	{
+	height:100vh;
+}
 table {width:100%; table-layout: fixed; height: 100vh;}
 .entry-content h1{
   font-size:500%; /* 文字サイズ大き目 */
@@ -21,6 +24,7 @@ table {width:100%; table-layout: fixed; height: 100vh;}
 }
 </style>
 <body><div class="center">
+<div id="container">
 
 
 <?php
@@ -116,5 +120,6 @@ eof;
 
 ?>
 
+</div>
 </body>
 </html>
