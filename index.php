@@ -29,7 +29,7 @@ h2 {font-size: 125%;}
 img {float: right; border: 0;}
 hr {width: 934px; background-color: #ccc; border: 0; height: 1px;}
 </style>
-<body><div class="center">
+<body><div class="center h1">
 
 
 <?php
