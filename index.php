@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <title>高田馬場周辺の列車運行情報</title>
+<meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" />
 </head>
 <style type="text/css">
 body {background-color: #fff; color: #222; font-family: sans-serif;}
@@ -108,9 +109,9 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 print<<<eof
   <table>
-   <tr><td>$line_name[0]</td><td>$led_pat[0]</td></tr>
-   <tr><td>$line_name[1]</td><td>$led_pat[1]</td></tr>
-   <tr><td>$line_name[2]</td><td>$led_pat[2]</td></tr>
+   <tr><td class="center">$line_name[0]</td><td class="center">$led_pat[0]</td></tr>
+   <tr><td class="center">$line_name[1]</td><td class="center">$led_pat[1]</td></tr>
+   <tr><td class="center">$line_name[2]</td><td class="center">$led_pat[2]</td></tr>
   <table>
 eof;
 
