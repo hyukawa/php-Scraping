@@ -1,3 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>高田馬場周辺の列車運行情報</title>
+</head>
+<body>
+
 <?php
 
 // 情報取得する路線名設定
@@ -74,25 +83,14 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 //echo '運行状況： ' . $return_pat0[4] . '</br>';
 //echo '遅延情報： ' . $return_pat0[5] . '</br>';
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="ja">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="Content-Style-Type" content="text/css">
-<title>高田馬場周辺の列車運行情報</title>
 
-
-//print<<<eof
-//  <html>
-//  <body>
-//  <table>
-//   <tr><td>$line_name[0]</td><td>$led_pat[0]</td></tr>
-//   <tr><td>$line_name[1]</td><td>$led_pat[1]</td></tr>
-//   <tr><td>$line_name[2]</td><td>$led_pat[2]</td></tr>
-//  <table>
-//  </body>
-//  </html>
-//eof;
+print<<<eof
+  <table>
+   <tr><td>$line_name[0]</td><td>$led_pat[0]</td></tr>
+   <tr><td>$line_name[1]</td><td>$led_pat[1]</td></tr>
+   <tr><td>$line_name[2]</td><td>$led_pat[2]</td></tr>
+  <table>
+eof;
 
   //遅延情報は文字が途中で切れてしまっているため、サイネージで表示した場合、恰好悪いので表示させない
 
@@ -100,3 +98,6 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 //var_dump( phpinfo() );
 
 ?>
+
+</body>
+</html>
