@@ -16,7 +16,6 @@ $railway_info = explode("\n", $railway_html);
 // 取得結果を配列へ格納
 $led_pat = [];
 $return_pat0 = [];
-$return_pat1 = [];
 
 
 for($j=0; $j<count($line_name)-1; $j++) {
@@ -32,8 +31,11 @@ for($i=0; $i<count($railway_info)-1; $i++) {
         if($pos !== false) {
             // 平常運転であればLED色は緑で点灯
             //$led_pat += [ "rail_state" => "○" ];
-            $led_pat += [ "rail_state" => $railway_info[$i+1] ];
-            $led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
+            //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
+            //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
+            $return_pat0[] = $railway_info[$i+1];
+            $return_pat0[] = $railway_info[$i+2];
+            break;
         } else {
             // 平常運転でなければ「遅延」が含まれるかチェック
             $pos = strpos($railway_info[$i+1], "遅延");
@@ -46,13 +48,15 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             } else {
                 // 平常運転、遅延でもなければLEDを赤点滅して警告する
                 //$led_pat += [ "rail_state" => "×" ];
-                $led_pat += [ "rail_state" => $railway_info[$i+1] ];
-                $led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
+                //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
+                //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
+                $return_pat0[] = $railway_info[$i+1];
+                $return_pat0[] = $railway_info[$i+2];
+                 break;
             }
         }
     }
 }
- break;
 }
 
 echo "路線： " . $line_name[0] . "</br>";
