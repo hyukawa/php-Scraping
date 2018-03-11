@@ -10,9 +10,9 @@ $line_name = "山手線";
 $url = "http://transit.yahoo.co.jp/traininfo/area/4/";
  
 // Yahoo! Japan運行情報ページのHTMLデータ取得
+ $railway_html = file_get_contents($url);
 // ただしテスト用なのでWebからの取得はせずにローカルに保存してあるファイルを読み込む
-// $railway_html = file_get_contents($url);
-$railway_html = file_get_contents("./index.html");
+/$railway_html = file_get_contents("./index.html");
  
 // 取得したHTMLデータを改行で分割して配列に格納
 $railway_info = explode("\n", $railway_html);
@@ -49,7 +49,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
     }
 }
  
-echo $line_name . "の運行状況LED点滅パターン\n";
+echo $line_name . "の運行状況\n";
 echo "LED色: " . $led_pat["rail_color"] . "\n";
 echo "LED点滅パターン:\n";
 var_dump($led_pat["rail_pat"]);
