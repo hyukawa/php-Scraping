@@ -51,6 +51,9 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 }
 
 echo $line_name . "の運行状況LED点滅パターン\n";
+echo "LED色: " . $led_pat["rail_color"] . "\n";
+echo "LED点滅パターン:\n";
+var_dump($led_pat["rail_pat"]);
 
 //var_dump( phpinfo() );
 
