@@ -29,12 +29,12 @@ h2 {font-size: 125%;}
 img {float: right; border: 0;}
 hr {width: 934px; background-color: #ccc; border: 0; height: 1px;}
 .entry-content h1{
-  font-size:300%; /* 文字サイズ大き目 */
+  font-size:500%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
   text-align:center; /* 文字を中央に */
   color:#000000; /* 文字の色を黒に */
-  background-color:#ffffcc; /* 背景色を薄いクリーム色に */
-  padding:5px 0 0 10px; /* 余白の調整 */
+  //background-color:#ffffcc; /* 背景色を薄いクリーム色に */
+  //padding:5px 0 0 10px; /* 余白の調整 */
 }
 </style>
 <body><div class="center">
