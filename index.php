@@ -1,7 +1,7 @@
 <?php
 
 // 情報取得する路線名設定
-$line_name = ["江ノ島電鉄線","山手線","東京メトロ東西線","東京メトロ副都心線"];
+$line_name = ["山手線","東京メトロ東西線","東京メトロ副都心線"];
  
 // Yahoo! Japan運行情報のURL
 // 以下は関東地方の運行情報URL
@@ -14,7 +14,7 @@ $railway_html = file_get_contents($url);
 $railway_info = explode("\n", $railway_html);
 
 // 取得結果を配列へ格納
-//$led_pat = [];
+$led_pat = [];
 $return_pat0 = [];
 
 
@@ -33,8 +33,9 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             //$led_pat += [ "rail_state" => "○" ];
             //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
             //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-            $return_pat0[] = $railway_info[$i+1];
-            $return_pat0[] = $railway_info[$i+2];
+            $led_pat[] =  "○" ;
+            //$return_pat0[] = $railway_info[$i+1];
+            //$return_pat0[] = $railway_info[$i+2];
             break;
         } else {
             // 平常運転でなければ「遅延」が含まれるかチェック
@@ -42,6 +43,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             if($pos !== false) {
                 // 遅延であればLED色は黄色で点滅
                 //$led_pat += [ "rail_state" => "▲" ];
+                $led_pat[] = "▲" ;
                 $return_pat0[] = $railway_info[$i+1];
                 $return_pat0[] = $railway_info[$i+2];
                  break;
@@ -50,6 +52,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
                 //$led_pat += [ "rail_state" => "×" ];
                 //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
                 //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
+                $led_pat[] = "×" ;
                 $return_pat0[] = $railway_info[$i+1];
                 $return_pat0[] = $railway_info[$i+2];
                  break;
@@ -71,6 +74,12 @@ echo '路線： ' . $line_name[2] . '</br>';
 echo '運行状況： ' . $return_pat0[4] . '</br>';
 echo '遅延情報： ' . $return_pat0[5] . '</br>';
 
+print<<<eof
+  <table>
+   <tr><th>路線</th><td>$line_name[0]</td><td>$led_pat[0]</td></tr>
+   <tr><th>画像</th><td>$line_name[1]</td><td>$led_pat[1]</td></tr>
+  <table>
+eof;
 
   //遅延情報は文字が途中で切れてしまっているため、サイネージで表示した場合、恰好悪いので表示させない
 
