@@ -116,8 +116,7 @@ print<<<eof
    <tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
   </table>
   <table>
-   //<tr><td bgcolor="#00ff00" colspan="3"><font size="7" color="#ffffff">運行情報</font></td>
-   <tr><td bgcolor="#80c241" width="10%"></td><td><h1>$line_name[0]</h1></td><td class="entry-content"><h1>$led_pat[0]</h1></td></tr>
+   <tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
    <tr><td bgcolor="#009bbf"></td><td><h1>$line_name[1]</h1></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
    <tr><td bgcolor="#9c5e31"></td><td><h1>$line_name[2]</h1></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
   </table>
@@ -133,3 +132,4 @@ eof;
 </div>
 </body>
 </html>
+  //<tr><td bgcolor="#00ff00" colspan="3"><font size="7" color="#ffffff">運行情報</font></td>
