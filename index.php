@@ -34,7 +34,7 @@ hr {width: 934px; background-color: #ccc; border: 0; height: 1px;}
   text-align:center; /* 文字を中央に */
   color:#000000; /* 文字の色を黒に */
   //background-color:#ffffcc; /* 背景色を薄いクリーム色に */
-  //padding:5px 0 0 10px; /* 余白の調整 */
+  padding:0px 0 0 0px; /* 余白の調整 */
 }
 </style>
 <body><div class="center">
@@ -120,9 +120,9 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 print<<<eof
   <table>
    <tr><td bgcolor="#00ff00" colspan="3"><font size="7" color="#ffffff">運行情報</font></td>
-   <tr><td bgcolor="#80c241" width="20%"></td><td width="50%">$line_name[0]</td><td width="30%" align="center"><font size="7">$led_pat[0]</font></td></tr>
-   <tr><td bgcolor="#009bbf"></td><td>$line_name[1]</td><td align="center"><font size="7">$led_pat[1]</font></td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td>$line_name[2]</td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
+   <tr><td bgcolor="#80c241" width="20%"></td><td width="50%">$line_name[0]</td><td width="30%" class="entry-content"><h1>$led_pat[0]</h1></td></tr>
+   <tr><td bgcolor="#009bbf"></td><td>$line_name[1]</td><td  class="entry-content"><h1>$led_pat[1]</h1></td></tr>
+   <tr><td bgcolor="#9c5e31"></td><td><h1>$line_name[2]<h1></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
   <table>
 eof;
 
