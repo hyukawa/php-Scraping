@@ -10,31 +10,14 @@
 <head>
 <style type="text/css">
 body {background-color: #fff; color: #222; font-family: sans-serif;}
-pre {margin: 0; font-family: monospace;}
-a:link {color: #009; text-decoration: none; background-color: #fff;}
-a:hover {text-decoration: underline;}
-//table {border-collapse: collapse; border: 0; width: 100%; cellspacing: 30%; cellpadding: 30%; width: 934px; box-shadow: 1px 2px 3px #ccc;}
- table {width:100%; table-layout: fixed;}
-//.center {text-align: center;}
-//.center table {margin: 1em auto; text-align: left;}
-//.center th {text-align: center !important;}
-//td, th {border: 0px solid #666; font-size: 125%; vertical-align: baseline; padding: 4px 5px;}
-h1 {font-size: 150%;}
-h2 {font-size: 125%;}
-.p {text-align: left;}
-.e {background-color: #ccf; width: 300px; font-weight: bold;}
-.h {background-color: #99c; font-weight: bold;}
-.v {background-color: #ddd; max-width: 300px; overflow-x: auto; word-wrap: break-word;}
-.v i {color: #999;}
-img {float: right; border: 0;}
-hr {width: 934px; background-color: #ccc; border: 0; height: 1px;}
+table {width:100%; table-layout: fixed;}
 .entry-content h1{
   font-size:500%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
   text-align:center; /* 文字を中央に */
   color:#000000; /* 文字の色を黒に */
   //background-color:#ffffcc; /* 背景色を薄いクリーム色に */
-  padding:0px 0 0 0px; /* 余白の調整 */
+  //padding:0px 0 0 0px; /* 余白の調整 */
 }
 </style>
 <body><div class="center">
@@ -120,9 +103,9 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 print<<<eof
   <table>
    <tr><td bgcolor="#00ff00" colspan="3"><font size="7" color="#ffffff">運行情報</font></td>
-   <tr><td bgcolor="#80c241" width="20%"></td><td width="50%">$line_name[0]</td><td width="30%" class="entry-content"><h1>$led_pat[0]</h1></td></tr>
-   <tr><td bgcolor="#009bbf"></td><td>$line_name[1]</td><td  class="entry-content"><h1>$led_pat[1]</h1></td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td><h1>$line_name[2]<h1></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
+   <tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td width="20%" class="entry-content"><h1>$led_pat[0]</h1></td></tr>
+   <tr><td bgcolor="#009bbf"></td><td><h1>$line_name[1]</h1></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
+   <tr><td bgcolor="#9c5e31"></td><td><h1>$line_name[2]</h1></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
   <table>
 eof;
 
