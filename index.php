@@ -120,9 +120,9 @@ print<<<eof
    <tr><td bgcolor="#00ff00"><img src=/unkoujouhou-240px-46px-ffffff-F105.png></td></tr>
   </table>
   <table>
-   <tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><img src=/yamanote-226px-73px-000000-F105.png></td><td class="entry-content" width="20%">$led_pat[0]</td></tr>
-   <tr><td bgcolor="#009bbf"></td><td><img src=/touzaisen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[1]</td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[2]</td></tr>
+   <tr height=200px><td bgcolor="#80c241" width="10%"></td><td width="70%"><img src=/yamanote-226px-73px-000000-F105.png></td><td class="entry-content" width="20%">$led_pat[0]</td></tr>
+   <tr height=300px><td bgcolor="#009bbf"></td><td><img src=/touzaisen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[1]</td></tr>
+   <tr height=400px><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[2]</td></tr>
   </table>
 eof;
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
