@@ -117,7 +117,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 print<<<eof
   <table>
-   <tr><td bgcolor="#00ff00"><img src=/unkoujouhou-240px-46px-ffffff-F105.png></td></tr>
+   <tr><td bgcolor="#006600"><img src=/unkoujouhou-240px-46px-ffffff-F105.png></td></tr>
   </table>
   <table>
    <tr height=150px><td bgcolor="#80c241" width="10%"></td><td width="60%"><img src=/yamanote-226px-73px-000000-F105.png></td><td class="entry-content" width="30%">$led_pat[0]</td></tr>
