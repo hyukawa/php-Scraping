@@ -65,15 +65,15 @@ for($i=0; $i<count($railway_info)-1; $i++) {
     $pos = strpos($railway_info[$i], $line_name[$j]."</a></td>");
     if ($pos !== false) {
         // 含まれていれば次の行に運行情報文字列があるので
-        // 運行情報に合わせたLEDの色とパターンを格納
+        // 運行情報に合わせたイメージファイルをセット
         // まず「平常」が含まれるかチェック
         $pos = strpos($railway_info[$i+1], "平常");
         if($pos !== false) {
-            // 平常運転であればLED色は緑で点灯
+            // 平常運転
             //$led_pat += [ "rail_state" => "○" ];
             //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
             //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-            $led_pat[] =  "<img src=/heijou.png>" ;
+            $led_pat[] =  "<img src=/heijou-290px-56px-00b300-F105.png>" ;
             //$return_pat0[] = $railway_info[$i+1];
             //$return_pat0[] = $railway_info[$i+2];
             break;
@@ -81,18 +81,18 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             // 平常運転でなければ「遅延」が含まれるかチェック
             $pos = strpos($railway_info[$i+1], "遅延");
             if($pos !== false) {
-                // 遅延であればLED色は黄色で点滅
+                // 遅延
                 //$led_pat += [ "rail_state" => "▲" ];
-                $led_pat[] = "▲" ;
+                $led_pat[] = "<img src=/chien-242px-56px-ff7f00-F105.png>" ;
                 $return_pat0[] = $railway_info[$i+1];
                 $return_pat0[] = $railway_info[$i+2];
                  break;
             } else {
-                // 平常運転、遅延でもなければLEDを赤点滅して警告する
+                // 平常運転、遅延でもない場合
                 //$led_pat += [ "rail_state" => "×" ];
                 //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
                 //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-                $led_pat[] = "×" ;
+                $led_pat[] = "<img src=/info.png>" ;
                 $return_pat0[] = $railway_info[$i+1];
                 $return_pat0[] = $railway_info[$i+2];
                  break;
