@@ -73,7 +73,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             //$led_pat += [ "rail_state" => "○" ];
             //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
             //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-            $led_pat[] =  "○" ;
+            $led_pat[] =  "<img src=/heijou.png>" ;
             //$return_pat0[] = $railway_info[$i+1];
             //$return_pat0[] = $railway_info[$i+2];
             break;
@@ -120,9 +120,9 @@ print<<<eof
    <tr><td bgcolor="#00ff00"><img src=/unkoujouhou-240px-46px-ffffff-F105.png></td></tr>
   </table>
   <table>
-   <tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><img src=/yamanote-226px-73px-000000-F105.png></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
-   <tr><td bgcolor="#009bbf"></td><td><img src=/touzaisen-226px-73px-000000-F105.png></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen-226px-73px-000000-F105.png></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
+   <tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><img src=/yamanote-226px-73px-000000-F105.png></td><td class="entry-content" width="20%">$led_pat[0]</td></tr>
+   <tr><td bgcolor="#009bbf"></td><td><img src=/touzaisen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[1]</td></tr>
+   <tr><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[2]</td></tr>
   </table>
 eof;
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
