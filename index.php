@@ -121,12 +121,14 @@ print<<<eof
   </table>
   <table>
    <tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><img src=/yamanote.png></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
-   <tr><td bgcolor="#009bbf"></td><td><h1>$line_name[1]</h1></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td><h1>$line_name[2]</h1></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
+   <tr><td bgcolor="#009bbf"></td><td><img src=/touzaisen.png></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
+   <tr><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen.png></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
   </table>
 eof;
    //<tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
-   
+   //<tr><td bgcolor="#009bbf"></td><td><h1>$line_name[1]</h1></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
+   //<tr><td bgcolor="#9c5e31"></td><td><h1>$line_name[2]</h1></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
+
   //遅延情報は文字が途中で切れてしまっているため、サイネージで表示した場合、恰好悪いので表示させない
 
 //var_dump($led_pat["rail_pat"]);
