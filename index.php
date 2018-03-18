@@ -73,9 +73,8 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             //$led_pat += [ "rail_state" => "○" ];
             //$led_pat += [ "rail_state" => $rail//way_info[$i+1] ];
             //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-            //$led_pat[] =  "<img src=/heijou-290px-56px-00b300-F105.png>" ;
-	    $led_pat[] =  "<img src=/chien2.gif>" ;
-            //$return_pat0[] = $railway_info[$i+1];
+            $led_pat[] =  "<img src=/heijou-290px-56px-00b300-F105.png>" ;
+	    //$return_pat0[] = $railway_info[$i+1];
             //$return_pat0[] = $railway_info[$i+2];
             break;
         } else {
@@ -93,7 +92,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
                 //$led_pat += [ "rail_state" => "×" ];
                 //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
                 //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-                $led_pat[] = "<img src=/info.png>" ;
+                $led_pat[] = "<img src=/info-279px-57px-4da6ff-F105.png>" ;
                 $return_pat0[] = $railway_info[$i+1];
                 $return_pat0[] = $railway_info[$i+2];
                  break;
