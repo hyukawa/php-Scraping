@@ -121,8 +121,8 @@ print<<<eof
   </table>
   <table>
    <tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><img src=/yamanote-226px-73px-000000-F105.png></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
-   <tr><td bgcolor="#009bbf"></td><td><img src=/touzaisen.png></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
-   <tr><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen.png></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
+   <tr><td bgcolor="#009bbf"></td><td><img src=/touzaisen-226px-73px-000000-F105.png></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
+   <tr><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen-226px-73px-000000-F105.png></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
   </table>
 eof;
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
