@@ -35,20 +35,20 @@ td, th {
 .box11{
     background-color:#80c241;
     float:left;
-    width:50%;
+    width:10%;
 }
 .box21{
     background-color:#009bbf;
     float:left;
-    width:50%;
+    width:100%;
 }
 .box2{
     float:left;
-    width:50%;
+    width:45%;
 } 
 .box3{
     float:left;
-    width:50%;
+    width:45%;
 }
 .box_in{
     max-width:300px;
