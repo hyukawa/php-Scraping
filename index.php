@@ -164,6 +164,22 @@ print<<<eof
     	<p>$led_pat[0]</p>
     </div>
   </div>
+
+  <div class="box11">
+    <div class="box_in">
+    	<p></p>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="box_in">
+    	<p><img src=/yamanote-226px-73px-000000-F105.png></p>
+    </div>
+  </div>
+  <div class="box3">
+    <div class="box_in">
+    	<p>$led_pat[0]</p>
+    </div>
+  </div>
 eof;
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
    //<tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
