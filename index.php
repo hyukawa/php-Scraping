@@ -147,7 +147,23 @@ print<<<eof
    <tr height=150px><td bgcolor="#80c241" width="10px"></td><td width="300px"><img src=/yamanote-226px-73px-000000-F105.png></td><td width="300px">$led_pat[0]</td></tr>
    <tr height=150px><td bgcolor="#009bbf"></td><td><img src=/touzaisen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[1]</td></tr>
    <tr height=150px><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[2]</td></tr>
-  </table>
+  </table> 
+  
+  <div class="box11">
+    <div class="box_in">
+    	<p></p>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="box_in">
+    	<p><img src=/yamanote-226px-73px-000000-F105.png></p>
+    </div>
+  </div>
+  <div class="box3">
+    <div class="box_in">
+    	<p>$led_pat[0]</p>
+    </div>
+  </div>
 eof;
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
    //<tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
