@@ -32,6 +32,32 @@ td, th {
   //background-color:#ffffcc; /* 背景色を薄いクリーム色に */
   //padding:0px 0 0 0px; /* 余白の調整 */
 }
+.box11{
+    background-color:#80c241;
+    float:left;
+    width:50%;
+}
+.box21{
+    background-color:#009bbf;
+    float:left;
+    width:50%;
+}
+.box2{
+    float:left;
+    width:50%;
+} 
+.box3{
+    float:left;
+    width:50%;
+}
+.box_in{
+    max-width:300px;
+    margin:10px;
+}
+.box_in p img{
+    width:100%;
+    height:auto;
+}
 </style>
 <body>
 <div id="container">
@@ -124,7 +150,37 @@ print<<<eof
    <tr height=150px><td bgcolor="#009bbf"></td><td><img src=/touzaisen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[1]</td></tr>
    <tr height=150px><td bgcolor="#9c5e31"></td><td><img src=/fukutoshinsen-226px-73px-000000-F105.png></td><td class="entry-content">$led_pat[2]</td></tr>
   </table>
-eof;
+  <div class="box11">
+    <div class="box_in">
+    	<p></p>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="box_in">
+    	<p><img src="yamanote-226px-73px-000000-F105.png"></p>
+    </div>
+  </div>
+  <div class="box3">
+    <div class="box_in">
+    	<p>$led_pat[0]</p>
+    </div>
+  </div>
+  <div class="box21">
+    <div class="box_in">
+    	<p></p>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="box_in">
+    	<p><img src="yamanote-226px-73px-000000-F105.png"></p>
+    </div>
+  </div>
+  <div class="box3">
+    <div class="box_in">
+    	<p>$led_pat[0]</p>
+    </div>
+  </div>
+  eof;
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
    //<tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
    //<tr><td bgcolor="#009bbf"></td><td><h1>$line_name[1]</h1></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
