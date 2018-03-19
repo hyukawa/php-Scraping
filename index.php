@@ -157,7 +157,7 @@ print<<<eof
   </div>
   <div class="box2">
     <div class="box_in">
-    	<p><img src="yamanote-226px-73px-000000-F105.png"></p>
+    	<p><img src="/yamanote-226px-73px-000000-F105.png"></p>
     </div>
   </div>
   <div class="box3">
@@ -172,12 +172,12 @@ print<<<eof
   </div>
   <div class="box2">
     <div class="box_in">
-    	<p><img src="yamanote-226px-73px-000000-F105.png"></p>
+    	<p><img src="touzaisen-226px-73px-000000-F105.png"></p>
     </div>
   </div>
   <div class="box3">
     <div class="box_in">
-    	<p>$led_pat[0]</p>
+    	<p>$led_pat[1]</p>
     </div>
   </div>
   eof;
