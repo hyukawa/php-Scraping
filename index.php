@@ -24,6 +24,9 @@ table {width: 100%; table-layout: fixed;}
 td, th {
     padding: 0px;
 }
+.entry-content {
+  text-align:center; /* 文字を中央に */
+}
 .entry-content h1{
   font-size:400%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
