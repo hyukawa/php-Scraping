@@ -149,7 +149,7 @@ print<<<eof
   <table>
    <tr height=150px><td bgcolor="#80c241" width="10%"></td><td wi5th="40%"><img src=/yamanote-226px-73px-000000-F105.png width="30%"></td><td class="entry-content" width="45%">$led_pat[0]</td></tr>
    <tr height=150px><td bgcolor="#009bbf" width="10%"></td><td width="45%"><img src=/touzaisen-226px-73px-000000-F105.png width="80%"></td><td class="entry-content" width="45%">$led_pat[1]</td></tr>
-   <tr height=150px><td bgcolor="#9c5e31" width="10%"></td><td width="45%"><img src=/fukutoshinsen-226px-73px-000000-F105.png width="100%"></td><td class="entry-content" width="45%">$led_pat[2]</td></tr>
+   <tr height=150px><td bgcolor="#9c5e31" width="10%"></td><td width="45%"><img src=/fukutoshinsen-226px-73px-000000-F105.png width="80%"></td><td class="entry-content" width="45%">$led_pat[2]</td></tr>
   </table> 
 eof;
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
