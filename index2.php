@@ -9,6 +9,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <head>
 <style type="text/css">
+
+/*
 html	{
         height: 100%;
 }
@@ -26,7 +28,8 @@ td, th {
 }
 .entry-content {
   text-align:center; /* 文字を中央に */
-}
+*/
+	
 .entry-content h1{
   font-size:400%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
@@ -34,11 +37,12 @@ td, th {
   color:#000000; /* 文字の色を黒に */
   //background-color:#ffffcc; /* 背景色を薄いクリーム色に */
   //padding:0px 0 0 0px; /* 余白の調整 */
-}
+
 .box11{
     background-color:#80c241;
     float:left;
     width:10%;
+    height:20%;
 }
 .box21{
     background-color:#009bbf;
