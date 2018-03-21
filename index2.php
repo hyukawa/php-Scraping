@@ -100,7 +100,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             //$led_pat += [ "rail_state" => "○" ];
             //$led_pat += [ "rail_state" => $rail//way_info[$i+1] ];
             //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-            $led_pat[] =  "<img src=/heijou-290px-56px-00b300-F105.png width='60%'>" ;
+            $led_pat[] =  "<img src=/heijou-290px-56px-00b300-F105.png>" ;
 	    //$return_pat0[] = $railway_info[$i+1];
             //$return_pat0[] = $railway_info[$i+2];
             break;
@@ -110,7 +110,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
             if($pos !== false) {
                 // 遅延
                 //$led_pat += [ "rail_state" => "▲" ];
-                $led_pat[] = "<img src=/chien-242px-56px-ff7f00-F105.png width='60%'>" ;
+                $led_pat[] = "<img src=/chien-242px-56px-ff7f00-F105.png>" ;
                 $return_pat0[] = $railway_info[$i+1];
                 $return_pat0[] = $railway_info[$i+2];
                  break;
@@ -119,7 +119,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
                 //$led_pat += [ "rail_state" => "×" ];
                 //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
                 //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-                $led_pat[] = "<img src=/info-279px-57px-4da6ff-F105.png width='60%'>" ;
+                $led_pat[] = "<img src=/info-279px-57px-4da6ff-F105.png>" ;
                 $return_pat0[] = $railway_info[$i+1];
                 $return_pat0[] = $railway_info[$i+2];
                  break;
@@ -128,71 +128,74 @@ for($i=0; $i<count($railway_info)-1; $i++) {
     }
 }
 }
-
+//for debug
 //echo '路線： ' . $line_name[0] . '</br>';
 //echo '運行状況： ' . $return_pat0[0] . '</br>';
 //echo '遅延情報： ' . $return_pat0[1] . '</br>';
-
 //echo '路線： ' . $line_name[1] . '</br>';
 //echo '運行状況： ' . $return_pat0[2] . '</br>';
 //echo '遅延情報： ' . $return_pat0[3] . '</br>';
-
 //echo '路線： ' . $line_name[2] . '</br>';
 //echo '運行状況： ' . $return_pat0[4] . '</br>';
 //echo '遅延情報： ' . $return_pat0[5] . '</br>';
 
 
 print<<<eof
-  <table>
-   <tr><td bgcolor="#006600"><img src=/unkoujouhou-240px-46px-ffffff-F105.png></td></tr>
-  </table>
-  <table>
-   <tr height=50px><td bgcolor="#80c241" width="10%"></td><td width="45%"><img src=/yamanote-226px-73px-000000-F105.png width="30%"></td><td class="entry-content" width="45%">$led_pat[0]</td></tr>
-   <tr height=50px><td bgcolor="#009bbf" width="10%"></td><td width="45%"><img src=/touzaisen-226px-73px-000000-F105.png width="80%"></td><td class="entry-content" width="45%">$led_pat[1]</td></tr>
-   <tr height=50px><td bgcolor="#9c5e31" width="10%"></td><td width="45%"><img src=/fukutoshinsen-226px-73px-000000-F105.png width="80%"></td><td class="entry-content" width="45%">$led_pat[2]</td></tr>
-  </table> 
+  <div class="box11">
+    <div class="box_in">
+    	<p></p>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="box_in">
+    	<p><img src=/yamanote-226px-73px-000000-F105.png></p>
+    </div>
+  </div>
+  <div class="box3">
+    <div class="box_in">
+   	<p>$led_pat[0]</p>
+    </div>
+  </div>
+  <div class="box21">
+    <div class="box_in">
+    	<p></p>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="box_in">
+    	<p><img src=/touzaisen-226px-73px-000000-F105.png></p>
+    </div>
+  </div>
+  <div class="box3">
+    <div class="box_in">
+    	<p>$led_pat[0]</p>
+    </div>
+  </div>
+  <div class="box31">
+    <div class="box_in">
+    	<p></p>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="box_in">
+    	<p><img src=/fukutoshinsen-226px-73px-000000-F105.png></p>
+    </div>
+  </div>
+  <div class="box3">
+    <div class="box_in">
+    	<p>$led_pat[0]</p>
+    </div>
+  </div>
 eof;
+//for debug
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
    //<tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
    //<tr><td bgcolor="#009bbf"></td><td><h1>$line_name[1]</h1></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
    //<tr><td bgcolor="#9c5e31"></td><td><h1>$line_name[2]</h1></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
-
 	
-//  <div class="box11">
-//    <div class="box_in">
-//    	<p></p>
-//    </div>
-//  </div>
-//  <div class="box2">
-//    <div class="box_in">
-//    	<p><img src=/yamanote-226px-73px-000000-F105.png></p>
-//    </div>
-//  </div>
-//  <div class="box3">
-//    <div class="box_in">
-//   	<p>$led_pat[0]</p>
-//    </div>
-//  </div>
-//  <div class="box21">
-//    <div class="box_in">
-//    	<p></p>
-//    </div>
-//  </div>
-//  <div class="box2">
-//    <div class="box_in">
-//    	<p><img src=/touzaisen-226px-73px-000000-F105.png></p>
-//    </div>
-//  </div>
-//  <div class="box3">
-//    <div class="box_in">
-//    	<p>$led_pat[0]</p>
-//    </div>
-//  </div>	
-	
-  //遅延情報は文字が途中で切れてしまっているため、サイネージで表示した場合、恰好悪いので表示させない
-
-//var_dump($led_pat["rail_pat"]);
-//var_dump( phpinfo() );
+//for debug
+   //var_dump($led_pat["rail_pat"]);
+   //var_dump( phpinfo() );
 
 ?>
 
