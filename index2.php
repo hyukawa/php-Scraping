@@ -29,14 +29,7 @@ td, th {
   text-align:center; /* 文字を中央に */
 }
 */
-.entry-content h1{
-  font-size:400%; /* 文字サイズ大き目 */
-  font-weight:bold; /* 文字を太文字に */
-  text-align:center; /* 文字を中央に */
-  color:#000000; /* 文字の色を黒に */
-  //background-color:#ffffcc; /* 背景色を薄いクリーム色に */
-  //padding:0px 0 0 0px; /* 余白の調整 */
-}
+
 .box11{
     background-color:#80c241;
     float:left;
