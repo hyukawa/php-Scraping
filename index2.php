@@ -12,6 +12,14 @@
 html{
     height: 100%;
 }
+body	{
+        height: 100%;
+	margin:10;
+	padding:10;
+}
+#container {
+    height:100vh;
+}
 .box11{
     background-color:#80c241;
     float:left;
