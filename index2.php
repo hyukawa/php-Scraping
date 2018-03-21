@@ -13,19 +13,19 @@
     background-color:#80c241;
     float:left;
     width:10%;
-    height:20%;
+    height:30%;
 }
 .box21{
     background-color:#009bbf;
     float:left;
     width:10%;
-    height:20%;
+    height:30%;
 }
 .box31{
     background-color:#9c5e31;
     float:left;
     width:10%;
-    height:20%;
+    height:30%;
 }
 .box2{
     float:left;
