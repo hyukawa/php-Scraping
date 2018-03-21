@@ -37,6 +37,7 @@ body	{
 }
 .box2{
     float:left;
+    text-align: center;
     width:45%;
 } 
 .box3{
@@ -44,7 +45,8 @@ body	{
     width:45%;
 }
 .box_in{
-    max-width:300px;
+    width:100%;
+    text-align: center;
     margin:10px;
 }
 .box_in p img{
