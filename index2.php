@@ -9,27 +9,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <head>
 <style type="text/css">
-/*
-html	{
-        height: 100%;
-}
-body	{
-        height: 100%;
-	margin:0;
-	padding:0;
-}
-#container {
-    height:100vh;
-}
-table {width: 100%; table-layout: fixed;}
-td, th {
-    padding: 0px;
-}
-.entry-content {
-  text-align:center; /* 文字を中央に */
-}
-*/
-
 .box11{
     background-color:#80c241;
     float:left;
@@ -202,6 +181,5 @@ eof;
 
 ?>
 
-</div>
 </body>
 </html>
