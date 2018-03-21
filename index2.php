@@ -10,7 +10,7 @@
 <head>
 <style type="text/css">
 
-/*
+
 html	{
         height: 100%;
 }
@@ -28,7 +28,7 @@ td, th {
 }
 .entry-content {
   text-align:center; /* 文字を中央に */
-*/
+
 	
 .entry-content h1{
   font-size:400%; /* 文字サイズ大き目 */
@@ -47,7 +47,14 @@ td, th {
 .box21{
     background-color:#009bbf;
     float:left;
-    width:100%;
+    width:10%;
+    height:20%;
+}
+.box31{
+    background-color:#9c5e31;
+    float:left;
+    width:10%;
+    height:20%;
 }
 .box2{
     float:left;
