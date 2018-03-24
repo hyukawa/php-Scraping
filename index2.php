@@ -49,7 +49,6 @@ body	{
 }
 .box_in{
     width:100%;
-    margin:10px;
     text-align:center;
     vertical-align:middle;
 }
@@ -143,6 +142,9 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 
 print<<<eof
+  <div class="box11">
+  </div>
+  </div>
   <div class="box11">
     <div class="box_in">
     	<p></p>
