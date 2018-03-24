@@ -51,22 +51,16 @@ body	{
     vertical-align:middle;
 }
 .box2 img{
-    width:40%;
+    width:35%;
     height:auto;
-    text-align:center;
-    vertical-align:middle;
 }
 .box22 img{
     width:100%;
     height:auto;
-    text-align:center;
-    vertical-align:middle;
 }
 .box3 img{
     width:60%;
     height:auto;
-    text-align:center;
-    vertical-align:middle;
 }
 </style>
 <body>
