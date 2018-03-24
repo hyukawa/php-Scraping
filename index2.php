@@ -144,7 +144,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 print<<<eof
   <div class="box11">
   </div>
-  </div>
+
   <div class="box11">
     <div class="box_in">
     	<p></p>
