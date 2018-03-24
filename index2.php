@@ -50,11 +50,10 @@ body	{
 .box2 img{
     width:35%;
     height:auto;
-    margin: 0px 0px 0px 20px;
 /* 画像を上下左右に中央配置する（絶対指定） */
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -62,7 +61,6 @@ body	{
 .box22 img{
     width:100%;
     height:auto;
-    margin: 0px 0px 0px 20px;
 /* 画像を上下左右に中央配置する（絶対指定） */
   position: absolute;
   top: 50%;
