@@ -54,7 +54,7 @@ body	{
 .box22 img{
     width:100%;
     height:auto;
-    margin:auto;
+    margin:50;
 }
 .box3 img{
     width:60%;
