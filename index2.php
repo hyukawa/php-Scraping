@@ -58,6 +58,7 @@ body	{
     height:auto;
     margin-left: auto;
     margin-right: auto;
+    margin: 0 auto;
 }
 </style>
 <body>
