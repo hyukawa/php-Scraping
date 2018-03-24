@@ -38,6 +38,7 @@ body	{
 .box2{
     width:45%;
     position: relative;
+	text-align: left;
 }
 .box22{
     width:45%;
