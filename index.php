@@ -23,6 +23,7 @@ body	{
 table {width: 100%; table-layout: fixed;}
 td, th {
     padding: 0px;
+    margin: 0px 0px 0px 10px;
 }
 .entry-content {
   text-align:center; /* 文字を中央に */
