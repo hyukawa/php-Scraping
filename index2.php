@@ -54,6 +54,7 @@ body	{
 /* 画像を上下左右に中央配置する（絶対指定） */
   position: absolute;
   top: 50%;
+  left: 10%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
