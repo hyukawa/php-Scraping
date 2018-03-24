@@ -167,28 +167,31 @@ print<<<eof
   </div>
   <!--東西線-->
   <div class="box">
-  <div class="box21">
-  </div>
-  <div class="box2">
-      <img src=/touzaisen-226px-73px-000000-F105.png>
-  </div>
-  <div class="box3">
-      $led_pat[1]
-  </div>
+	  <div class="box21">
+	    	<p></p>
+	  </div>
+	  <div class="box2">
+	      <img src=/touzaisen-226px-73px-000000-F105.png>
+	  </div>
+	  <div class="box3">
+	      $led_pat[1]
+	  </div>
   </div>
   <!--副都心線-->
   <div class="box">
-  <div class="box31">
+	  <div class="box31">
+	    	<p></p>
+	  </div>
+	  <div class="box2">
+	  	<img src=/fukutoshinsen-226px-73px-000000-F105.png>
+	  </div>
+	  <div class="box3">
+      		$led_pat[2]
+  	</div>
   </div>
-  <div class="box2">
-      <img src=/fukutoshinsen-226px-73px-000000-F105.png>
-  </div>
-  <div class="box3">
-      $led_pat[2]
-  </div>
-  </div>
-
 eof;
+	
+	
 //for debug
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
    //<tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
