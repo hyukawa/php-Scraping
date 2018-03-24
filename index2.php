@@ -21,16 +21,19 @@ body	{
     background-color:#80c241;
     width:10%;
     height:30%;
+    display: inline-block;
 }
 .box21{
     background-color:#009bbf;
     width:10%;
     height:30%;
+    display: inline-block;
 }
 .box31{
     background-color:#9c5e31;
     width:10%;
     height:30%;
+    display: inline-block;
 }
 .box2{
     display: inline-block;
