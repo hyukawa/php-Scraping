@@ -47,11 +47,6 @@ body	{
     text-align:center;
     vertical-align:middle;
 }
-.box_in{
-    width:100%;
-    text-align:center;
-    vertical-align:middle;
-}
 .box2 img{
     width:50%;
     height:auto;
@@ -167,7 +162,7 @@ print<<<eof
 	  <div class="box21">
 	    	<p></p>
 	  </div>
-	  <div class="box22">
+	  <div class="box2">
 	      <img src=/touzaisen-226px-73px-000000-F105.png>
 	  </div>
 	  <div class="box3">
@@ -179,7 +174,7 @@ print<<<eof
 	  <div class="box31">
 	    	<p></p>
 	  </div>
-	  <div class="box22">
+	  <div class="box2">
 	  	<img src=/fukutoshinsen-226px-73px-000000-F105.png>
 	  </div>
 	  <div class="box3">
