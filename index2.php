@@ -45,13 +45,13 @@ body	{
 }
 .box_in{
     width:100%;
-    text-align:center;
-    vertical-align:middle;
     margin:10px;
 }
 .box_in p img{
     width:40%;
     height:auto;
+    text-align:center;
+    vertical-align:middle;
 }
 </style>
 <body>
