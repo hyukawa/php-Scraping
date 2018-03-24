@@ -50,12 +50,12 @@ body	{
 .box2 img{
     width:35%;
     height:auto;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 20px;
 }
 .box22 img{
     width:100%;
     height:auto;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 20px;
 }
 .box3 img{
     width:60%;
