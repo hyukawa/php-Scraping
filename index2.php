@@ -38,10 +38,14 @@ body	{
 .box2{
     float:left;
     width:45%;
+    text-align:center;
+    vertical-align:middle;
 } 
 .box3{
     float:left;
     width:45%;
+    text-align:center;
+    vertical-align:middle;
 }
 .box_in{
     width:100%;
@@ -50,8 +54,6 @@ body	{
 .box_in p img{
     width:40%;
     height:auto;
-    text-align:center;
-    vertical-align:middle;
 }
 </style>
 <body>
