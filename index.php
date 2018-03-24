@@ -27,7 +27,7 @@ td, th {
 .entry-content {
   text-align:center; /* 文字を中央に */
 }
-image {margin-left: 10px;}
+img {margin-left: 10px;}
 .entry-content h1{
   font-size:400%; /* 文字サイズ大き目 */
   font-weight:bold; /* 文字を太文字に */
