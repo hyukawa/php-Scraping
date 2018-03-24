@@ -52,6 +52,18 @@ body	{
     text-align:center;
     vertical-align:middle;
 }
+.box2 img{
+    width:40%;
+    height:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+.box3 img{
+    width:40%;
+    height:auto;
+    text-align:center;
+    vertical-align:middle;
+}
 .box_in img{
     width:40%;
     height:auto;
@@ -147,8 +159,8 @@ print<<<eof
   <div class="box2">
       <img src=/yamanote-226px-73px-000000-F105.png>
   </div>
-  <div class="box2">
-      <img src=/yamanote-226px-73px-000000-F105.png>
+  <div class="box3">
+      $led_pat[0]
   </div>
 
 
