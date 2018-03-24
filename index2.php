@@ -17,7 +17,7 @@ body	{
 }
 .box{
     width:100%;
-    height:20%;
+    height:10%;
     display: flex;
 }
 .box11{
