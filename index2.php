@@ -37,7 +37,6 @@ body	{
 }
 .box2{
     float:left;
-    text-align: center;
     width:45%;
 } 
 .box3{
@@ -46,11 +45,12 @@ body	{
 }
 .box_in{
     width:100%;
-    text-align: center;
+    text-align:center;
+    vertical-align:middle;
     margin:10px;
 }
 .box_in p img{
-    width:30%;
+    width:40%;
     height:auto;
 }
 </style>
