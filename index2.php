@@ -53,7 +53,7 @@ body	{
     vertical-align:middle;
 }
 .box2 img{
-    width:10%;
+    width:30%;
     height:auto;
     text-align:center;
     vertical-align:middle;
