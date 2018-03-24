@@ -19,23 +19,23 @@ body	{
 }
 .box{
     width:100%;
-    height:30%;
+    height:33%;
     display: flex;
 }
 .box11{
     background-color:#80c241;
     width:10%;
-    height:30%;
+    height:100%;
 }
 .box21{
     background-color:#009bbf;
     width:10%;
-    height:30%;
+    height:100%;
 }
 .box31{
     background-color:#9c5e31;
     width:10%;
-    height:30%;
+    height:100%;
 }
 .box2{
     width:45%;
