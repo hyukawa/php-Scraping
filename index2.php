@@ -39,16 +39,14 @@ body	{
 }
 .box2{
     width:45%;
-    vertical-align:middle;
+    margin:50;
 }
 .box22{
     width:45%;
-    vertical-align:middle;
 } 
 .box3{
     width:45%;
     text-align:center;
-    vertical-align:middle;
 }
 .box2 img{
     width:35%;
