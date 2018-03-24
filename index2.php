@@ -50,6 +50,7 @@ body	{
 .box2 img{
     width:35%;
     height:auto;
+    margin: 0px 0px 0px 10px;
 /* 画像を上下左右に中央配置する（絶対指定） */
   position: absolute;
   top: 50%;
@@ -61,6 +62,7 @@ body	{
 .box22 img{
     width:100%;
     height:auto;
+    margin: 0px 0px 0px 10px;
 /* 画像を上下左右に中央配置する（絶対指定） */
   position: absolute;
   top: 50%;
