@@ -19,6 +19,7 @@ body	{
 }
 .box{
     width:100%;
+    height:30%;
     display: flex;
 }
 .box11{
