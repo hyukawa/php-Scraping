@@ -17,6 +17,9 @@ body	{
 	margin:10;
 	padding:10;
 }
+.box{
+    width:100%;
+}
 .box11{
     background-color:#80c241;
     width:10%;
@@ -155,7 +158,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 print<<<eof
   <!--山手線-->
-  <div>
+  <div class="box">
   <div class="box11">
   </div>
   <div class="box2">
