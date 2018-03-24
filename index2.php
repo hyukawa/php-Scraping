@@ -151,6 +151,7 @@ print<<<eof
 	      $led_pat[0]
  	</div>
   </div>
+  <br>
   <!--東西線-->
   <div class="box">
 	  <div class="box21">
