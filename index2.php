@@ -165,6 +165,7 @@ print<<<eof
   </div>
   </div>
   <!--東西線-->
+  <div class="box">
   <div class="box21">
   </div>
   <div class="box2">
@@ -173,7 +174,9 @@ print<<<eof
   <div class="box3">
       $led_pat[1]
   </div>
+  </div>
   <!--副都心線-->
+  <div class="box">
   <div class="box31">
   </div>
   <div class="box2">
@@ -181,6 +184,7 @@ print<<<eof
   </div>
   <div class="box3">
       $led_pat[2]
+  </div>
   </div>
 
 eof;
