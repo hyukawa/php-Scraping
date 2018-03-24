@@ -154,6 +154,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 
 print<<<eof
+  <!--山手線-->
   <div class="box11">
   </div>
   <div class="box2">
@@ -162,7 +163,7 @@ print<<<eof
   <div class="box3">
       $led_pat[0]
   </div>
-
+  <!--東西線-->
   <div class="box21">
   </div>
   <div class="box2">
@@ -171,54 +172,16 @@ print<<<eof
   <div class="box3">
       $led_pat[1]
   </div>
-  
-
-
-  <div class="box11">
-    <div class="box_in">
-    	<p></p>
-    </div>
-  </div>
-  <div class="box2">
-    <div class="box_in">
-    	<img src=/yamanote-226px-73px-000000-F105.png>
-    </div>
-  </div>
-  <div class="box3">
-    <div class="box_in">
-   	<p>$led_pat[0]</p>
-    </div>
-  </div>
+  <!--副都心線-->
   <div class="box21">
-    <div class="box_in">
-    	<p></p>
-    </div>
   </div>
   <div class="box2">
-    <div class="box_in">
-    	<p><img src=/touzaisen-226px-73px-000000-F105.png></p>
-    </div>
+      <img src=/fukutoshinsen-226px-73px-000000-F105.png>
   </div>
   <div class="box3">
-    <div class="box_in">
-    	<p>$led_pat[0]</p>
-    </div>
+      $led_pat[2]
   </div>
-  <div class="box31">
-    <div class="box_in">
-    	<p></p>
-    </div>
-  </div>
-  <div class="box2">
-    <div class="box_in">
-    	<p><img src=/fukutoshinsen-226px-73px-000000-F105.png></p>
-    </div>
-  </div>
-  <div class="box3">
-    <div class="box_in">
-    	<p>$led_pat[0]</p>
-    </div>
-  </div>
+
 eof;
 //for debug
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
