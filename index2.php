@@ -164,6 +164,7 @@ print<<<eof
 	      $led_pat[1]
 	  </div>
   </div>
+  <br>
   <!--副都心線-->
   <div class="box">
 	  <div class="box31">
