@@ -53,12 +53,15 @@ body	{
     text-align:center;
     vertical-align:middle;
 }
+.box_in img{
+    width:40%;
+    height:auto;
+    text-align:center;
+    vertical-align:middle;
+}
 .box_in p img{
     width:40%;
     height:auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 auto;
 }
 </style>
 <body>
@@ -147,7 +150,7 @@ print<<<eof
   </div>
   <div class="box2">
     <div class="box_in">
-    	<p><img src=/yamanote-226px-73px-000000-F105.png></p>
+    	<img src=/yamanote-226px-73px-000000-F105.png>
     </div>
   </div>
   <div class="box3">
