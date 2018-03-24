@@ -163,6 +163,15 @@ print<<<eof
       $led_pat[0]
   </div>
 
+  <div class="box21">
+  </div>
+  <div class="box2">
+      <img src=/touzaisen-226px-73px-000000-F105.png>
+  </div>
+  <div class="box3">
+      $led_pat[1]
+  </div>
+  
 
 
   <div class="box11">
