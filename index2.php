@@ -50,6 +50,8 @@ body	{
 .box_in{
     width:100%;
     margin:10px;
+    text-align:center;
+    vertical-align:middle;
 }
 .box_in p img{
     width:40%;
