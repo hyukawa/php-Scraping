@@ -56,8 +56,8 @@ body	{
 .box_in p img{
     width:40%;
     height:auto;
-    text-align:center;
-    vertical-align:middle;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
 <body>
