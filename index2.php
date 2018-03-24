@@ -155,15 +155,15 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 print<<<eof
   <!--山手線-->
   <div class="box">
-  <div class="box11">
-  	<p></p>
-  </div>
-  <div class="box2">
-      <img src=/yamanote-226px-73px-000000-F105.png>
-  </div>
-  <div class="box3">
-      $led_pat[0]
-  </div>
+  	<div class="box11">
+  		<p></p>
+ 	</div>
+  	<div class="box2">
+      		<img src=/yamanote-226px-73px-000000-F105.png>
+  	</div>
+  	<div class="box3">
+	      $led_pat[0]
+ 	</div>
   </div>
   <!--東西線-->
   <div class="box">
