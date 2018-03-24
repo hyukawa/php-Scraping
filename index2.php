@@ -39,11 +39,11 @@ body	{
 }
 .box2{
     width:45%;
-    margin: 0 0 0 1;
+    margin: 0px 0px 0px 5px;
 }
 .box22{
     width:45%;
-    margin: 0 0 0 1;
+    margin: 0px 0px 0px 5px;
 } 
 .box3{
     width:45%;
