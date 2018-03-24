@@ -19,7 +19,7 @@ body	{
 }
 .box{
     width:100%;
-    height:33%;
+    height:30%;
     display: flex;
 }
 .box11{
@@ -65,20 +65,10 @@ body	{
     vertical-align:middle;
 }
 .box3 img{
-    width:50%;
-    height:auto;
-    text-align:center;
-    vertical-align:middle;
-}
-.box_in img{
     width:70%;
     height:auto;
     text-align:center;
     vertical-align:middle;
-}
-.box_in p img{
-    width:40%;
-    height:auto;
 }
 </style>
 <body>
