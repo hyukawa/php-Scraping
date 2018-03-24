@@ -53,7 +53,7 @@ body	{
     vertical-align:middle;
 }
 .box2 img{
-    width:50%;
+    width:40%;
     height:auto;
     text-align:center;
     vertical-align:middle;
@@ -65,7 +65,7 @@ body	{
     vertical-align:middle;
 }
 .box3 img{
-    width:70%;
+    width:60%;
     height:auto;
     text-align:center;
     vertical-align:middle;
