@@ -19,33 +19,29 @@ body	{
 }
 .box{
     width:100%;
+    display: flex;
 }
 .box11{
     background-color:#80c241;
     width:10%;
     height:30%;
-    display: inline-block;
 }
 .box21{
     background-color:#009bbf;
     width:10%;
     height:30%;
-    display: inline-block;
 }
 .box31{
     background-color:#9c5e31;
     width:10%;
     height:30%;
-    display: inline-block;
 }
 .box2{
-    display: inline-block;
     width:45%;
     text-align:center;
     vertical-align:middle;
 } 
 .box3{
-    display: inline-block;
     width:45%;
     text-align:center;
     vertical-align:middle;
