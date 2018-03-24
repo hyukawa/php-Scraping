@@ -50,16 +50,17 @@ body	{
 .box2 img{
     width:35%;
     height:auto;
-    margin: 10% 0px 0px 0px;
+    margin: 10% 0% 0% 0%;
 }
 .box22 img{
     width:100%;
     height:auto;
-    margin: 30px 0px 30px 0px;
+    margin: 10% 0% 0% 0%;
 }
 .box3 img{
     width:60%;
     height:auto;
+    margin: 10% 0% 0% 0%;
 }
 </style>
 <body>
