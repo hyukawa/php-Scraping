@@ -50,7 +50,7 @@ body	{
     margin:10px;
 }
 .box_in p img{
-    width:70%;
+    width:30%;
     height:auto;
 }
 </style>
