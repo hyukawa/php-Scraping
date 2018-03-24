@@ -144,6 +144,14 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 print<<<eof
   <div class="box11">
   </div>
+  <div class="box2">
+      <img src=/yamanote-226px-73px-000000-F105.png>
+  </div>
+  <div class="box2">
+      <img src=/yamanote-226px-73px-000000-F105.png>
+  </div>
+
+
 
   <div class="box11">
     <div class="box_in">
