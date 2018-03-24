@@ -39,11 +39,9 @@ body	{
 }
 .box2{
     width:45%;
-    margin: 0px 0px 0px 5px;
 }
 .box22{
     width:45%;
-    margin: 0px 0px 0px 5px;
 } 
 .box3{
     width:45%;
@@ -52,10 +50,12 @@ body	{
 .box2 img{
     width:35%;
     height:auto;
+    margin: 0px 0px 0px 5px;
 }
 .box22 img{
     width:100%;
     height:auto;
+    margin: 0px 0px 0px 5px;
 }
 .box3 img{
     width:60%;
