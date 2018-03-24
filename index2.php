@@ -25,7 +25,6 @@ body	{
 }
 .box21{
     background-color:#009bbf;
-    float:left;
     width:10%;
     height:30%;
 }
