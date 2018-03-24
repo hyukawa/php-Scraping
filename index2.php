@@ -19,30 +19,27 @@ body	{
 }
 .box11{
     background-color:#80c241;
-    float:left;
     width:10%;
     height:30%;
 }
 .box21{
     background-color:#009bbf;
-    clear: left;
     width:10%;
     height:30%;
 }
 .box31{
     background-color:#9c5e31;
-    clear: left;
     width:10%;
     height:30%;
 }
 .box2{
-    float:left;
+    display: inline-block;
     width:45%;
     text-align:center;
     vertical-align:middle;
 } 
 .box3{
-    float:left;
+    display: inline-block;
     width:45%;
     text-align:center;
     vertical-align:middle;
@@ -173,7 +170,7 @@ print<<<eof
       $led_pat[1]
   </div>
   <!--副都心線-->
-  <div class="box21">
+  <div class="box31">
   </div>
   <div class="box2">
       <img src=/fukutoshinsen-226px-73px-000000-F105.png>
