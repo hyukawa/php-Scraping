@@ -45,7 +45,6 @@ body	{
 } 
 .box3{
     width:45%;
-    text-align:center;
     position: relative;
 }
 .box2 img{
