@@ -144,7 +144,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 print<<<eof
   <table>
-   <tr><td bgcolor="#006600"><img src=/unkoujouhou-240px-46px-ffffff-F105.png></td></tr>
+   <tr height=50px>><td bgcolor="#006600"><img src=/unkoujouhou-240px-46px-ffffff-F105.png width="100%"></td></tr>
   </table>
   <table>
    <tr height=50px><td bgcolor="#80c241" width="10%"></td><td width="45%"><img src=/yamanote-226px-73px-000000-F105.png width="30%"></td><td class="entry-content" width="45%">$led_pat[0]</td></tr>
@@ -157,37 +157,6 @@ eof;
    //<tr><td bgcolor="#009bbf"></td><td><h1>$line_name[1]</h1></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
    //<tr><td bgcolor="#9c5e31"></td><td><h1>$line_name[2]</h1></td><td class="entry-content"><h1>$led_pat[2]</h1></td></tr>
 
-	
-//  <div class="box11">
-//    <div class="box_in">
-//    	<p></p>
-//    </div>
-//  </div>
-//  <div class="box2">
-//    <div class="box_in">
-//    	<p><img src=/yamanote-226px-73px-000000-F105.png></p>
-//    </div>
-//  </div>
-//  <div class="box3">
-//    <div class="box_in">
-//   	<p>$led_pat[0]</p>
-//    </div>
-//  </div>
-//  <div class="box21">
-//    <div class="box_in">
-//    	<p></p>
-//    </div>
-//  </div>
-//  <div class="box2">
-//    <div class="box_in">
-//    	<p><img src=/touzaisen-226px-73px-000000-F105.png></p>
-//    </div>
-//  </div>
-//  <div class="box3">
-//    <div class="box_in">
-//    	<p>$led_pat[0]</p>
-//    </div>
-//  </div>	
 	
   //遅延情報は文字が途中で切れてしまっているため、サイネージで表示した場合、恰好悪いので表示させない
 
