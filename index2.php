@@ -14,8 +14,6 @@ html{
 }
 body	{
         height: 100%;
-	margin:10;
-	padding:10;
 }
 .box{
     width:100%;
