@@ -38,7 +38,6 @@ body	{
 .box2{
     width:45%;
     position: relative;
-	text-align: left;
 }
 .box22{
     width:45%;
@@ -52,6 +51,7 @@ body	{
     width:35%;
     height:auto;
     margin: 0px 0px 0px 10px;
+	text-align: left;
 /* 画像を上下左右に中央配置する（絶対指定） */
   position: absolute;
   top: 50%;
