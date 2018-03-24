@@ -39,12 +39,10 @@ body	{
 }
 .box2{
     width:45%;
-    text-align:center;
     vertical-align:middle;
 }
 .box22{
     width:45%;
-    text-align:center;
     vertical-align:middle;
 } 
 .box3{
