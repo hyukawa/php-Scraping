@@ -25,12 +25,13 @@ body	{
 }
 .box21{
     background-color:#009bbf;
+    clear: left;
     width:10%;
     height:30%;
 }
 .box31{
     background-color:#9c5e31;
-    float:left;
+    clear: left;
     width:10%;
     height:30%;
 }
