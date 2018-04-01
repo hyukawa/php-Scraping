@@ -25,6 +25,17 @@ body	{
     width:100%;
     height:100%;
 }
+.box0 img{
+    width:60%;
+    height:auto;
+/* 画像を上下左右に中央配置する（絶対指定） */
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .box11{
     background-color:#80c241;
     width:10%;
