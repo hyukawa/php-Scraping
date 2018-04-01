@@ -20,6 +20,11 @@ body	{
     height:15%;
     display: flex;
 }
+.box0{
+    background-color:#00ff00;
+    width:100%;
+    height:100%;
+}
 .box11{
     background-color:#80c241;
     width:10%;
@@ -162,6 +167,12 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 
 print<<<eof
+  <!--運行情報-->
+  <div class="box">
+  	<div class="box0">
+  		<img src=/yamanote-226px-73px-000000-F105.png>
+ 	</div>
+  </div>
   <!--山手線-->
   <div class="box">
   	<div class="box11">
