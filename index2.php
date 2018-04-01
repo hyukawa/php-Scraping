@@ -21,7 +21,7 @@ body	{
     display: flex;
 }
 .box0{
-    background-color:#00ff00;
+    background-color:#006600;
     width:100%;
     height:100%;
 }
@@ -170,7 +170,7 @@ print<<<eof
   <!--運行情報-->
   <div class="box">
   	<div class="box0">
-  		<img src=/yamanote-226px-73px-000000-F105.png>
+  		<img src=/unkoujouhou-240px-46px-ffffff-F105.png>
  	</div>
   </div>
   <!--山手線-->
