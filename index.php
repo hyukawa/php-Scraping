@@ -37,6 +37,16 @@ img {margin-left: 10px;}
   //background-color:#ffffcc; /* 背景色を薄いクリーム色に */
   //padding:0px 0 0 0px; /* 余白の調整 */
 }
+.box{  
+      width:100%;  
+      height:15%;  
+      display: flex;  
+}  
+  .box0{  
+      background-color:#006600;  
+      width:100%;  
+      height:100%;  
+} 
 .box11{
     background-color:#80c241;
     float:left;
@@ -145,15 +155,20 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 
 print<<<eof
-  <table>
-   <tr height=30px><td bgcolor="#006600"><img src=/unkoujouhou-240px-46px-ffffff-F105.png width="40%"></td></tr>
-  </table>
+  <div class="box"> 
+    <div class="box0"> 
+    </div> 
+  </div> 
+ 
   <table>
    <tr height=50px><td width="10%"><img src=/yamanote20180403.png width="100%"></td><td width="50%"><img src=/yamanote-226px-51px-000000-F105.png width="50%"></td><td class="entry-content" width="40%">$led_pat[0]</td></tr>
    <tr height=50px><td width="10%"><img src=/touzaisen20180403.png width="100%"></td><td width="50%"><img src=/touzaisen-226px-73px-000000-F105.png width="100%"></td><td class="entry-content" width="40%">$led_pat[1]</td></tr>
    <tr height=50px><td width="10%"><img src=/fukutosinsen20180403.png width="100%"></td><td width="50%"><img src=/fukutoshinsen-226px-73px-000000-F105.png width="100%"></td><td class="entry-content" width="40%">$led_pat[2]</td></tr>
   </table> 
 eof;
+  //<table>
+  // <tr height=30px><td bgcolor="#006600"><img src=/unkoujouhou-240px-46px-ffffff-F105.png width="40%"></td></tr>
+  //</table>
    //<tr><td bgcolor="#00ff00"><font size="7" color="#ffffff">運行情報</font></td>
    //<tr><td bgcolor="#80c241" width="10%"></td><td width="70%"><h1>$line_name[0]</h1></td><td class="entry-content" width="20%"><h1>$led_pat[0]</h1></td></tr>
    //<tr><td bgcolor="#009bbf"></td><td><h1>$line_name[1]</h1></td><td class="entry-content"><h1>$led_pat[1]</h1></td></tr>
