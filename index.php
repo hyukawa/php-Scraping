@@ -156,7 +156,8 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 
 print<<<eof
   <div class="box"> 
-    <div class="box0"> 
+    <div class="box0">
+      <img src=/unkoujouhou-240px-46px-ffffff-F105.png width="40%">
     </div> 
   </div> 
  
