@@ -39,8 +39,8 @@ img {margin-left: 10px;}
 }
 .box{  
       width:100%;  
-      height:12%;  
-      display: flex;  
+      height:13%;
+      display: flex;
       align-items: center;
       justify-content: center;
 }  
@@ -159,7 +159,7 @@ for($i=0; $i<count($railway_info)-1; $i++) {
 print<<<eof
   <div class="box"> 
     <div class="box0">
-      <img src=/unkoujouhou-240px-46px-ffffff-F105.png width="55%">
+      <img src=/unkoujouhou-240px-46px-ffffff-F105.png width="50%">
     </div> 
   </div> 
  
