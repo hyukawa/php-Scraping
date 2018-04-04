@@ -39,7 +39,7 @@ img {margin-left: 10px;}
 }
 .box{  
       width:100%;  
-      height:10%;  
+      height:12%;  
       display: flex;  
       align-items: center;
       justify-content: center;
