@@ -41,8 +41,10 @@ img {margin-left: 10px;}
       width:100%;  
       height:15%;  
       display: flex;  
+      align-items: center;
+      justify-content: center;
 }  
-  .box0{  
+.box0{  
       background-color:#006600;  
       width:100%;  
       height:100%;  
