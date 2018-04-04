@@ -164,10 +164,10 @@ print<<<eof
   </div> 
  
   <table>
-   <tr height=50px><td width="10%"><img src=/yamanote20180403.png width="100%"></td><td width="50%"><img src=/yamanote-226px-51px-000000-F105.png width="50%"></td><td class="entry-content" width="40%">$led_pat[0]</td></tr>
-   <tr height=50px><td width="10%"><img src=/touzaisen20180403.png width="100%"></td><td width="50%"><img src=/touzaisen-226px-73px-000000-F105.png width="100%"></td><td class="entry-content" width="40%">$led_pat[1]</td></tr>
-   <tr height=50px><td width="10%"><img src=/fukutosinsen20180403.png width="100%"></td><td width="50%"><img src=/fukutoshinsen-226px-73px-000000-F105.png width="100%"></td><td class="entry-content" width="40%">$led_pat[2]</td></tr>
-   <tr height=50px><td width="10%"><img src=/seibusinjukusen20180403.png width="100%"></td><td width="50%"><img src=/seibusinjukusen-228px-43px-000000-F105.png width="55%"></td><td class="entry-content" width="40%">$led_pat[3]</td></tr>
+   <tr height=40px><td width="10%"><img src=/yamanote20180403.png width="100%"></td><td width="50%"><img src=/yamanote-226px-51px-000000-F105.png width="50%"></td><td class="entry-content" width="40%">$led_pat[0]</td></tr>
+   <tr height=40px><td width="10%"><img src=/touzaisen20180403.png width="100%"></td><td width="50%"><img src=/touzaisen-226px-73px-000000-F105.png width="100%"></td><td class="entry-content" width="40%">$led_pat[1]</td></tr>
+   <tr height=40px><td width="10%"><img src=/fukutosinsen20180403.png width="100%"></td><td width="50%"><img src=/fukutoshinsen-226px-73px-000000-F105.png width="100%"></td><td class="entry-content" width="40%">$led_pat[2]</td></tr>
+   <tr height=40px><td width="10%"><img src=/seibusinjukusen20180403.png width="100%"></td><td width="50%"><img src=/seibusinjukusen-228px-43px-000000-F105.png width="55%"></td><td class="entry-content" width="40%">$led_pat[3]</td></tr>
   </table> 
 eof;
   //<table>
