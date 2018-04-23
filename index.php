@@ -133,7 +133,8 @@ for($i=0; $i<count($railway_info)-1; $i++) {
                 //$led_pat += [ "rail_state" => "×" ];
                 //$led_pat += [ "rail_state" => $railway_info[$i+1] ];
                 //$led_pat += [ "rail_state_detail" => $railway_info[$i+2] ];
-                $led_pat[] = "<img src=/info-279px-57px-4da6ff-F105.png width='70%'>" ;
+                //$led_pat[] = "<img src=/info-279px-57px-4da6ff-F105.png width='70%'>" ;
+		$led_pat[] = "<img src=/info20180423.png width='70%'>" ;
                 $return_pat0[] = $railway_info[$i+1];
                 $return_pat0[] = $railway_info[$i+2];
                  break;
