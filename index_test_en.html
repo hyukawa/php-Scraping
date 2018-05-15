@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="refresh" content="30" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>高田馬場の運行情報・天気</title>
+<meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" />
+<!--ビューポート設定-->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<head>
+<style type="text/css">
+html {
+        height: 100%;
+}
+body {	/* 表示領域のサイズ */
+        width:   470px;
+        height:  800px;
+        margin:  0;
+        padding: 0;
+        border:  1px solid black;
+}
+table {width: 100%; table-layout: fixed;}
+td, th {
+    padding: 0px;
+}
+.entry-content {
+  text-align:center; /* 文字を中央に */
+}
+img {margin-left: 10px;}
+.entry-content h1{
+  font-size:400%; /* 文字サイズ大き目 */
+  font-weight:bold; /* 文字を太文字に */
+  text-align:center; /* 文字を中央に */
+  color:#000000; /* 文字の色を黒に */
+  //background-color:#ffffcc; /* 背景色を薄いクリーム色に */
+  //padding:0px 0 0 0px; /* 余白の調整 */
+}
+.box{  
+      width:100%;  
+      height:13%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}  
+.box0{  
+      background-color:#006600;  
+      width:100%;  
+      height:100%;  
+}
+.box1{  
+      background-color:#0000CD;  
+      color: #ffffff;
+      width:100%;  
+      height:100%;  
+      bottom: 0;
+      line-height: 1.4;
+      font-size: 45px;
+      font-family: "メイリオ";
+      text-indent: 0.5em;
+      letter-spacing: 0px;
+}
+.box2 {	/* 本日の天気画像 */
+        margin: 15px 0px 0px 5px;
+        float: left;
+        width: 34%;
+        height: 40%;
+        //border:  1px solid blue;
+}
+.box2 img {	/* 本日の天気画像 */
+        margin: auto;
+        //border:  1px solid red;
+}
+.box3 {	/* 本日の日付 */
+        margin: 30px 15px 0px 0px;
+        //margin: 15px 15px 0px 0px;
+        float: right;
+        width: 60%;
+        //height: 40%;
+        //border:  1px solid green;
+}
+.box4 {	/* 明日以降の日付天気 */
+        margin: 190px 4px 0px 4px;
+        float: bottom;
+        height: 36%;
+        //border:  1px solid blue;
+}
+.box4 img {margin-left: 0px;}
+.content1 { /* 本日の日付 */
+        text-align: right;
+        //white-space: nowrap;
+        //vertical-align: bottom;
+        line-height: 2.5;
+        font-size: 30px;
+        //font-size: 35px;
+        font-family: "メイリオ";
+}
+.content2 { /* 本日の気温 */
+        text-align: right;
+        white-space: nowrap;
+        //vertical-align: top;
+        font-size: 35px;
+        font-family: "メイリオ";
+}
+.content3 { /* 明日以降日付 */
+        text-align: center;
+        font-size: 18px;
+        font-family: "メイリオ";
+}
+#traffic {
+        width:   470px;
+        height:  400px;
+        margin:  0;
+        padding: 0;
+        //border:  1px solid black;
+}
+#weather {
+        width:   470px;
+        height:  400px;
+        margin:  0;
+        padding: 0;
+        //border:  1px solid black;
+}
+</style>
+<body>
+
+<div id="traffic">
+  <div class="box"> 
+    <div class="box0">
+      <img src=unkoujouhou-240px-46px-ffffff-F105.png width="50%">
+    </div> 
+  </div> 
+ 
+  <table>
+   <tr height=40px>
+    <td width="10%"><img src=yamanote20180403.png width="100%"></td>
+    <td width="50%"><img src=yamanote-226px-51px-000000-F105.png width="50%"></td>
+    <td class="entry-content" width="40%"><img src=heijou20180403.png width='75%'></td>
+   </tr>
+   <tr height=40px>
+    <td width="10%"><img src=touzaisen20180403.png width="100%"></td>
+    <td width="50%"><img src=touzaisen-226px-73px-000000-F105.png width="100%"></td>
+    <td class="entry-content" width="40%"><img src=heijou20180403.png width='75%'></td>
+   </tr>
+   <tr height=40px>
+    <td width="10%"><img src=fukutosinsen20180403.png width="100%"></td>
+    <td width="50%"><img src=fukutoshinsen-226px-73px-000000-F105.png width="100%"></td>
+    <td class="entry-content" width="40%"><img src=heijou20180403.png width='75%'></td>
+   </tr>
+   <tr height=40px>
+    <td width="10%"><img src=seibusinjukusen20180403.png width="100%"></td>
+    <td width="55%"><img src=seibusinjukusen-228px-43px-000000-F105.png width="55%"></td>
+    <td class="entry-content" width="40%"><img src=heijou20180403.png width='75%'></td>
+   </tr>
+  </table> 
+</div><div id="weather">
+<div class="box">
+<div class="box1">
+ Weather
+</div>
+</div>
+
+<div class="box2">
+<img src=kumori_nochi_hare.png width='100%'>
+</div>
+
+<div class="box3">
+<div class="content1">Tuesday,May 15</div>
+<div class="content2">28℃/15℃</div>
+</div>
+
+<div class="box4">
+<table>
+<tr class="content3">
+  <td>Wed,May 16</td>
+  <td>Thu,May 17</td>
+  <td>Fri,May 18</td>
+  <td>Sat,May 19</td>
+</tr>
+<tr>
+  <td><img src=hare.png width='100%'></td>
+  <td><img src=hare_tokidoki_kumori.png width='100%'></td>
+  <td><img src=kumori_tokidoki_hare.png width='100%'></td>
+  <td><img src=kumori.png width='100%'></td>
+</tr>
+</table>
+</div>
+</div>
+
+</div>
+</body>
+</html>
